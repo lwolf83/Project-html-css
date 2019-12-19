@@ -7,17 +7,49 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style_description.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Fantastic animals</title>
   </head>
+
   <body>
-    <h1>Animal Description</h1>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light menucolor">
+          <a class="navbar-brand" href="#">Fantastic-Beasts.com</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="Let's see the beasts">Bestiary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="Did you see a beast? tell us">Add beasts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="Contact us">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 search" type="submit">Search</button>
+            </form>
+          </div>
+          </nav>
+      </header>
+    
+      <h1>Beast Description</h1>
 
     <div class="container">
-        <div class="row">
+        <div class="row descriptionrow">
           <div class="col-4">
-            <img src="https://usercontent1.hubstatic.com/14144168_f1024.jpg" alt="photo Phoenix">
+            <img src="https://usercontent1.hubstatic.com/14144168_f1024.jpg" alt="photo Phoenix" class="imgphoenix">
           </div>
           <div class="col">
             <h3>Information</h3>
@@ -26,7 +58,7 @@
                 In the historical record, the phoenix "could symbolize renewal in general as well as the sun, time, the Empire, metempsychosis, consecration, resurrection, life in the heavenly Paradise, Christ, Mary, virginity, the exceptional man, and certain aspects of Christian life".</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row descriptionrow">
           <div class="table-responsive">
                 <table class="table">
                     <thead>
@@ -75,26 +107,44 @@
             </div>
         </div>
       </div>
+
   <footer>
-    <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <div class="list-group">
-                <button type="button" class="list-group-item list-group-item-action active">
-                  Accueil
-                </button>
-                <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
-                <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-                <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
-                <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
-              </div>
-          </div>
-          <div class="col">
-            
+    <div class="container basdepage">
+      <div class="row">
+        <div class="col-6">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="index.html">Fantastic-Beasts.com</a></button>
+          <button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="bestiaire.html">Bestiary</a></button>
+          <button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="animal.html">Add beasts</a></button>
+          <button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="contactus.html">Contact</a></button>
           </div>
         </div>
+        <div class="col-6">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+          <h3>Follow us</h3>
+              </div>
+            </div>
+            <div class="row">
+              
+        
+            <div class="col"><a href="https://instagram.com" title="instagram"><img src="photo_bestiaire/instagram.png" alt="logo instagram"></a></div>
+            <div class="col"><a href="https://facebook.com" title="facebook"><img src="photo_bestiaire/facebook.png" alt="logo facebook"></a></div>
+            <div class="col"><a href="https://twitter.com" title="twitter"><img src="photo_bestiaire/twitter.png" alt="logo twitter"></a></div>
+            <div class="col"><a href="https://pinterest.com" title="pinterest"><img src="photo_bestiaire/pinterest.png" alt="logo pinterest"></a></div>
+          
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        <div class="row">
+          <div class="col copyright"> &copy; 2019 Anatolie Elisa Jean Laurent - Wild Code School</div>
+          </div>
     </div>    
-  </footer>
+    </footer>
   </body>
+
 
 </html>

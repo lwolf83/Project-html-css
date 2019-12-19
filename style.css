@@ -54,3 +54,22 @@ footer img {
 	margin-top: 1%;
 	text-align: right;
 }
+
+/*---Ajout de style pour la page Description--*/
+
+.imgphoenix{
+    border-radius:25px;
+    width:100%;
+}
+
+.descritpionrow{
+    margin: 3%;
+}
+
+thead{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
