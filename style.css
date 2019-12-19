@@ -18,6 +18,9 @@ body h1 {
 	color: black;
 	border-color: black;
 }
+.espace_bas {
+	margin-bottom: 1%;
+}
 
 .buttonfooter a {
 	color: black;
