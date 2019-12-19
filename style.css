@@ -18,12 +18,39 @@ body h1 {
 	color: black;
 	border-color: black;
 }
-.search:hover {
-	background-color: #ca9fe5;
+
+.buttonfooter a {
+	color: black;
+}
+
+
+.search:hover,  .buttonfooter:hover, .buttonfooter:hover a {
+	background-color: #ca9fe5 !important;
 	color: white;
 	border-color: #ca9fe5;
 }
-.menucolor {
+.menucolor, footer .basdepage{
 	background-color: #c3d5d8 !important;
+	border-top: 1px solid lightgrey;
+	padding-top: 1%;
 }
 
+
+footer .basdepage{
+	border-top: 1px solid lightgrey;
+	padding-top: 1%;
+}
+
+footer h3{
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+footer img {
+	padding-bottom: 8%;
+}
+
+.copyright{
+	margin-top: 1%;
+	text-align: right;
+}
