@@ -54,3 +54,22 @@ footer img {
 	margin-top: 1%;
 	text-align: right;
 }
+
+.card-deck img {
+	max-width: 100%;
+	height: 60%;
+}
+
+.card-deck{
+	margin-left: auto;
+    margin-right: auto;
+	width: 60rem;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+
+.title_page{
+	font-family: "Tangerine", cursive;
+	font-weight: bold;
+	font-size: 70px;
+	}
