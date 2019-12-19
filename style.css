@@ -4,7 +4,7 @@ body {
 	
 }
 
-div:first-child {
+body .back {
 	background-color : white;
 }
 
@@ -29,16 +29,25 @@ body h1 {
 	color: white;
 	border-color: #ca9fe5;
 }
-.menucolor, footer .basdepage{
+.menucolor {
 	background-color: #c3d5d8 !important;
 	border-top: 1px solid lightgrey;
 	padding-top: 1%;
 }
 
+footer {
+	padding-left : 0;
+	padding-right : 0;
+}
+
+footer div {
+	background-color: #c3d5d8 ;
+}
 
 footer .basdepage{
-	border-top: 1px solid lightgrey;
+	border-top: 2px solid #9042c1;
 	padding-top: 1%;
+
 }
 
 footer h3{
@@ -54,6 +63,7 @@ footer img {
 	margin-top: 1%;
 	text-align: right;
 }
+
 
 .card-deck img {
 	max-width: 100%;
@@ -73,3 +83,22 @@ footer img {
 	font-weight: bold;
 	font-size: 70px;
 	}
+
+/*---Ajout de style pour la page Description--*/
+
+.imgphoenix{
+    border-radius:25px;
+    width:100%;
+}
+
+.descritpionrow{
+    margin: 3%;
+}
+
+thead{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
