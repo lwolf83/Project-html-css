@@ -1,5 +1,5 @@
 body {
-	background-color : lightsteelblue;
+	background-color : #3e0f5c;
 	font-family: 'Open Sans', sans-serif;
 	
 }
@@ -25,9 +25,9 @@ body h1 {
 
 
 .search:hover,  .buttonfooter:hover, .buttonfooter:hover a {
-	background-color: #ca9fe5 !important;
+	background-color: #3e0f5c !important;
 	color: white;
-	border-color: #ca9fe5;
+	border-color: #3e0f5c;
 }
 .menucolor {
 	background-color: #c3d5d8 !important;
@@ -45,7 +45,7 @@ footer div {
 }
 
 footer .basdepage{
-	border-top: 2px solid #9042c1;
+	border-top: 2px solid #3e0f5c;
 	padding-top: 1%;
 
 }
