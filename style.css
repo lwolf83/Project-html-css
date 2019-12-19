@@ -1,0 +1,56 @@
+body {
+	background-color : lightsteelblue;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+div:first-child {
+	background-color : white;
+}
+
+body h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align:center;
+	padding-top : 2%;
+	padding-bottom : 2%;
+}
+.search {
+	color: black;
+	border-color: black;
+}
+
+.buttonfooter a {
+	color: black;
+}
+
+
+.search:hover,  .buttonfooter:hover, .buttonfooter:hover a {
+	background-color: #ca9fe5 !important;
+	color: white;
+	border-color: #ca9fe5;
+}
+.menucolor, footer .basdepage{
+	background-color: #c3d5d8 !important;
+	border-top: 1px solid lightgrey;
+	padding-top: 1%;
+}
+
+
+footer .basdepage{
+	border-top: 1px solid lightgrey;
+	padding-top: 1%;
+}
+
+footer h3{
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+footer img {
+	padding-bottom: 8%;
+}
+
+.copyright{
+	margin-top: 1%;
+	text-align: right;
+}
