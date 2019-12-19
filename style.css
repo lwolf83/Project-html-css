@@ -14,4 +14,16 @@ body h1 {
 	padding-top : 2%;
 	padding-bottom : 2%;
 }
+.search {
+	color: black;
+	border-color: black;
+}
+.search:hover {
+	background-color: #ca9fe5;
+	color: white;
+	border-color: #ca9fe5;
+}
+.menucolor {
+	background-color: #c3d5d8 !important;
+}
 
