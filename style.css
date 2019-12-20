@@ -28,7 +28,6 @@ body h1 {
 
 .search:hover,  .buttonfooter:hover, .buttoncolor:hover, .buttonfooter:hover a {
 	background-color: #3e0f5c !important;
->>>>>>> 607e1db2ab76a93e552af90affbf760c208fd407
 	color: white;
 	border-color: #3e0f5c;
 }
@@ -53,7 +52,7 @@ footer div {
 }
 
 footer .basdepage{
-	border-top: 2px solid #3e0f5c;
+	border-top: 1px solid #3e0f5c ;
 	padding-top: 1%;
 
 }
