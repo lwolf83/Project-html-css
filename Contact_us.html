@@ -68,7 +68,8 @@
 							</div>
 							<div class="form-group">
 								<label for="ISO-3166-1:Alpha-2Codes">Country</label>
-								<select requiered  name="contry" id="ISO-3166-1:Alpha-2Codes" class="form-control">
+								<select name="contry" id="ISO-3166-1:Alpha-2Codes" class="form-control" required>
+									<option value="">Choose your country ...</option>
 									<option value="AX">Åland Islands</option>
 									<option value="AL">Albania</option>
 									<option value="DZ">Algeria</option>
@@ -327,15 +328,17 @@
 						</form>
 					</div>
 				</div>
+			</div>
+			<div>
 				<footer>
 					<div class="container basdepage">
 						<div class="row">
 							<div class="col-6">
 								<div class="list-group">
-									<button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="index.html">Fantastic-Beasts.com</a></button>
-									<button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="bestiaire.html">Bestiary</a></button>
-									<button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="animal.html">Add beasts</a></button>
-									<button type="button" class="list-group-item list-group-item-action buttonfooter"><a href="Contact_us.html">Contact</a></button>
+									<button type="button" class="list-group-item list-group-item-action buttonfooter" onclick="location.href='./index.html'">Fantastic-Beasts.com</button>
+									<button type="button" class="list-group-item list-group-item-action buttonfooter" onclick="location.href='./bestiaire.html'">Bestiary</button>
+									<button type="button" class="list-group-item list-group-item-action buttonfooter" onclick="location.href='./animal.html'">Add beasts</button>
+									<button type="button" class="list-group-item list-group-item-action buttonfooter" onclick="location.href='./contact_us.html'">Contact</button>
 								</div>
 							</div>
 							<div class="col-6">
@@ -364,7 +367,7 @@
 						</div>
 						<div class="row">
 							<div class="col copyright">
-								 &copy; 2019 Anatolie Elisa Jean Laurent - Wild Code School
+								                                 &copy; 2019 Anatolie Elisa Jean Laurent - Wild Code School                            
 							</div>
 						</div>
 					</div>
