@@ -1,0 +1,112 @@
+body {
+	background-color : #3e0f5c;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+body .back {
+	background-color : white;
+}
+
+body h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align:center;
+	padding-top : 2%;
+	padding-bottom : 2%;
+}
+.search {
+	color: black;
+	border-color: black;
+}
+.espace_bas {
+	margin-bottom: 1%;
+}
+
+.buttonfooter a {
+	color: black;
+}
+
+.search:hover,  .buttonfooter:hover, .buttoncolor:hover, .buttonfooter:hover a {
+	background-color: #3e0f5c !important;
+>>>>>>> 607e1db2ab76a93e552af90affbf760c208fd407
+	color: white;
+	border-color: #3e0f5c;
+}
+.menucolor {
+	background-color: #c3d5d8 !important;
+	border-top: 1px solid lightgrey;
+	padding-top: 1%;
+}
+.buttoncolor {
+	background-color:white;
+	border-color: black;
+	color: black;
+}
+
+footer {
+	padding-left : 0;
+	padding-right : 0;
+}
+
+footer div {
+	background-color: #c3d5d8 ;
+}
+
+footer .basdepage{
+	border-top: 2px solid #3e0f5c;
+	padding-top: 1%;
+
+}
+
+footer h3{
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+footer img {
+	padding-bottom: 8%;
+}
+
+.copyright{
+	margin-top: 1%;
+	text-align: right;
+}
+
+
+.card-deck img {
+	max-width: 100%;
+	height: 60%;
+}
+
+.card-deck{
+	margin-left: auto;
+    margin-right: auto;
+	width: 60rem;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+
+.title_page{
+	font-family: "Tangerine", cursive;
+	font-weight: bold;
+	font-size: 70px;
+	}
+
+/*---Ajout de style pour la page Description--*/
+
+.imgphoenix{
+    border-radius:25px;
+    width:100%;
+}
+
+.descritpionrow{
+    margin: 3%;
+}
+
+thead{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
